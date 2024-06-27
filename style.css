@@ -104,3 +104,14 @@ main{
 hr{
     border-color: rgba(128, 128, 128, 0.178);
 }
+@media screen and (max-width: 850px) {
+    body{
+        align-items: flex-start;
+        background-repeat: no-repeat;
+    }
+    main{
+        width: 98%;
+        margin: 2em 0;
+        min-height: 60vh;
+    }
+}
